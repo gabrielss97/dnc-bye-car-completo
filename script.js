@@ -16,7 +16,6 @@ const MOTO_CARD = [
 let liEls = document.querySelectorAll("ul li");
 let modalEl = document.querySelector("#modal");
 let index = 0;
-let closeButtonEl = document.querySelector("#close-button");
 
 function show(indexSum) {
   index = index + indexSum;
